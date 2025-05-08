@@ -1,0 +1,7 @@
+Precision: 0.0000
+Recall: 0.0000
+F1 Score: 0.0000
+True Positives: 0.0
+False Positives: 1.0
+False Negatives: 6.0
+Threshold: 0.1

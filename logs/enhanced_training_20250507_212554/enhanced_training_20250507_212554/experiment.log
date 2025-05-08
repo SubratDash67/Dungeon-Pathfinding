@@ -1,0 +1,17 @@
+2025-05-07 21:25:54,745 - enhanced_training_20250507_212554 - INFO - Initialized experiment: enhanced_training_20250507_212554
+2025-05-07 21:25:54,745 - enhanced_training_20250507_212554 - INFO - Starting enhanced training run: enhanced_training_20250507_212554
+2025-05-07 21:25:54,745 - enhanced_training_20250507_212554 - INFO - Generating dataset...
+2025-05-07 21:25:58,286 - enhanced_training_20250507_212554 - INFO - Applying data augmentation...
+2025-05-07 21:26:15,516 - enhanced_training_20250507_212554 - INFO - Dataset size after augmentation: 900
+2025-05-07 21:26:15,516 - enhanced_training_20250507_212554 - INFO - Dataset split: 630 train, 135 validation, 135 test
+2025-05-07 21:26:15,534 - enhanced_training_20250507_212554 - INFO - Model summary:
+2025-05-07 21:26:15,534 - enhanced_training_20250507_212554 - INFO -   Total parameters: 250242
+2025-05-07 21:26:15,534 - enhanced_training_20250507_212554 - INFO -   Trainable parameters: 250242
+2025-05-07 21:26:15,534 - enhanced_training_20250507_212554 - INFO - Training model with enhanced parameters...
+2025-05-07 21:28:41,281 - enhanced_training_20250507_212554 - INFO - Training completed in 145.74 seconds
+2025-05-07 21:28:41,281 - enhanced_training_20250507_212554 - INFO - Evaluating on test set...
+2025-05-07 21:28:41,776 - enhanced_training_20250507_212554 - INFO - Test metrics: {'accuracy': 0.9277051091194153, 'precision': 0.604651153087616, 'recall': 0.014184396713972092, 'f1_score': 0.027718548404519303, 'threshold': 0.2}
+2025-05-07 21:28:41,785 - enhanced_training_20250507_212554 - INFO - Final model saved at: checkpoints/enhanced_training_20250507_212554\final_model.pt
+2025-05-07 21:28:42,095 - enhanced_training_20250507_212554 - INFO - Enhanced training complete!
+2025-05-07 21:28:42,095 - enhanced_training_20250507_212554 - INFO - Best model saved at: checkpoints/enhanced_training_20250507_212554\best_checkpoint.pt
+2025-05-07 21:28:42,095 - enhanced_training_20250507_212554 - INFO - Final model saved at: checkpoints/enhanced_training_20250507_212554\final_model.pt

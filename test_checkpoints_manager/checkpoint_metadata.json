@@ -1,0 +1,31 @@
+{
+  "checkpoint_list": [
+    {
+      "filename": "checkpoint_epoch_2.pt",
+      "epoch": 2,
+      "is_best": true,
+      "metrics": {
+        "loss": 0.8,
+        "accuracy": 0.7
+      }
+    },
+    {
+      "filename": "checkpoint_epoch_3.pt",
+      "epoch": 3,
+      "is_best": false,
+      "metrics": {
+        "loss": 0.7,
+        "accuracy": 0.8
+      }
+    },
+    {
+      "filename": "checkpoint_epoch_4.pt",
+      "epoch": 4,
+      "is_best": true,
+      "metrics": {
+        "loss": 0.6,
+        "accuracy": 0.9
+      }
+    }
+  ]
+}

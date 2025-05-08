@@ -1,0 +1,15 @@
+2025-05-07 21:07:33,649 - 20250507_210733 - INFO - Initialized experiment: 20250507_210733
+2025-05-07 21:07:33,649 - 20250507_210733 - INFO - Starting full training run: full_training_20250507_210733
+2025-05-07 21:07:33,649 - 20250507_210733 - INFO - Generating dataset...
+2025-05-07 21:07:33,658 - 20250507_210733 - INFO - Dataset split: 140 train, 30 validation, 30 test
+2025-05-07 21:07:33,662 - 20250507_210733 - INFO - Model summary:
+2025-05-07 21:07:33,662 - 20250507_210733 - INFO -   Total parameters: 51010
+2025-05-07 21:07:33,662 - 20250507_210733 - INFO -   Trainable parameters: 51010
+2025-05-07 21:07:33,674 - 20250507_210733 - INFO - Training model for 50 epochs...
+2025-05-07 21:07:48,125 - 20250507_210733 - INFO - Training completed in 14.45 seconds
+2025-05-07 21:07:48,125 - 20250507_210733 - INFO - Evaluating on test set...
+2025-05-07 21:07:48,172 - 20250507_210733 - INFO - Test loss: 0.210286
+2025-05-07 21:07:48,181 - 20250507_210733 - INFO - Final model saved at: checkpoints/full_training_20250507_210733\final_model.pt
+2025-05-07 21:07:48,377 - 20250507_210733 - INFO - Full training complete!
+2025-05-07 21:07:48,377 - 20250507_210733 - INFO - Best model saved at: checkpoints/full_training_20250507_210733\best_checkpoint.pt
+2025-05-07 21:07:48,377 - 20250507_210733 - INFO - Final model saved at: checkpoints/full_training_20250507_210733\final_model.pt
