@@ -40,3 +40,85 @@ This project implements a real-time pathfinding system for procedurally generate
 
 ## 📁 Project Structure
 
+```
+RealTimeDungeonPathfindingOptimizer/
+├── data/
+│   ├── dungeon_graphs.py
+│   ├── trap_guard_simulation.py
+│   └── dataset_generator.py
+├── models/
+│   ├── gnn_model.py
+│   └── gnn_layers.py
+├── training/
+│   ├── trainer.py
+│   └── checkpoint.py
+├── utils/
+│   ├── data_augmentation.py
+│   ├── graph_utils.py
+│   ├── logging_utils.py
+│   └── custom_loss.py
+├── scripts/
+│   ├── run_training.py
+│   ├── run_evaluation.py
+│   ├── enhanced_training.py
+│   └── enhanced_evaluation.py
+└── tests/
+```
+
+---
+
+## 📊 Performance Metrics
+
+| Metric    | Value  |
+|-----------|--------|
+| Accuracy  | 90.5%  |
+| Precision | 84.3%  |
+| Recall    | 79.8%  |
+| F1 Score  | 82.0%  |
+
+---
+
+## ⚙️ Usage
+
+### 🔧 Environment Setup
+
+```
+python -m venv venv
+# On Unix/macOS
+source venv/bin/activate
+# On Windows
+venv\Scripts\activate
+
+pip install torch torch-geometric numpy matplotlib tqdm
+```
+
+### 🏃‍♂️ Run Training
+
+```
+python scripts/enhanced_training.py
+```
+
+### 📈 Evaluate Model
+
+```
+python scripts/enhanced_evaluation.py \
+  --checkpoint checkpoints/enhanced_training_[TIMESTAMP]/best_checkpoint.pt \
+  --num_test_samples 5
+```
+
+---
+
+## 🔭 Future Work
+
+- Integrate real-time planner into game engines (Unity/Unreal)
+- Reinforcement Learning for adaptive navigation
+- Support multi-agent cooperative pathfinding
+- Visual interactive debugger for path interpretation
+
+---
+
+## 🧰 Technologies Used
+
+- **Python 3.8+**
+- **PyTorch**, **PyTorch Geometric**
+- **NetworkX**, **NumPy**, **Matplotlib**
