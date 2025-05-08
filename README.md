@@ -3,8 +3,6 @@
 ## 🚀 Overview
 This project implements a real-time pathfinding system for procedurally generated dungeons using a custom Graph Neural Network (GNN) architecture. The system dynamically avoids threats (traps, guards) and predicts optimal paths in complex spatial environments.
 
-![Dungeon Pathfinding Example](evaluation_results/new_dungeons_eval/enhanced_prediction_1.png)
-
 ---
 
 ## 🧠 Key Features
